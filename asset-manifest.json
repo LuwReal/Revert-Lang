@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Revert-Lang/static/css/main.7eb708c6.css",
+    "main.js": "/Revert-Lang/static/js/main.7a642a0e.js",
+    "static/js/453.831cef7a.chunk.js": "/Revert-Lang/static/js/453.831cef7a.chunk.js",
+    "static/media/cenarioMenu.png": "/Revert-Lang/static/media/cenarioMenu.60dafaf5da0de8b67a96.png",
+    "static/media/cenarioFase.png": "/Revert-Lang/static/media/cenarioFase.6e693ee514a7cbd81977.png",
+    "index.html": "/Revert-Lang/index.html",
+    "main.7eb708c6.css.map": "/Revert-Lang/static/css/main.7eb708c6.css.map",
+    "main.7a642a0e.js.map": "/Revert-Lang/static/js/main.7a642a0e.js.map",
+    "453.831cef7a.chunk.js.map": "/Revert-Lang/static/js/453.831cef7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eb708c6.css",
+    "static/js/main.7a642a0e.js"
+  ]
+}

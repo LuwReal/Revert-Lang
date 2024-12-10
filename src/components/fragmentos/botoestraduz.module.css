@@ -1,0 +1,30 @@
+.containerbotoes{
+    display: flex;
+    align-items: center;
+}
+.botaoAzul{
+    color: blue;
+}
+.botaoVermelho{
+    color: red;
+}
+.botaoAmarelo{
+    color: yellow;
+}
+.botaoAzul:hover{
+    animation: expadindo 1s ease forwards;
+}
+.botaoVermelho:hover{
+    animation: expadindo 1s ease forwards;
+}
+.botaoAmarelo:hover{
+    animation: expadindo 1s ease forwards;
+}
+@keyframes expadindo {
+    0%{
+        height: 8rem;
+    }
+    100%{
+        height: 9rem;
+    }
+}

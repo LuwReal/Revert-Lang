@@ -1,0 +1,15 @@
+.containerFaseAzul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    border: 5px solid #fff;
+    background-image: url('./../../public/img/cenarioFase.png');
+}
+.personagemAzul{
+    width: 7rem;
+    height: 9rem;
+    
+}

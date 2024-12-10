@@ -1,0 +1,10 @@
+.containerFaseAmarelo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.personagemAmarelo{
+    width: 7rem;
+    height: 9rem;
+}

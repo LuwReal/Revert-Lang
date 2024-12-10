@@ -1,0 +1,189 @@
+
+.containerExterno{
+    color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    height: 35rem;
+    border: 5px solid rgb(37, 34, 34);
+    margin: auto;
+    background-image: url('./../../public/img/cenarioMenu.png');
+    background-size: cover;
+}
+.containerInterno{
+    color: red;
+}
+.containerInternoNone{
+    display: none;
+}
+.botoesRaizPai{
+    color: rebeccapurple;
+}
+.tituloMenu{
+    width: 12rem;
+    height: 4rem;
+    background-image: url('./../../public/img/cenarioMenu.png');
+    font-family: "Bokor", system-ui;
+    background-size: cover;
+    font-size: 3rem;
+    color: transparent;
+    background-clip: text;
+    display: flex;
+    -webkit-text-stroke: 2px white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tituloMenu:hover{
+    animation: newGameHover 1s ease forwards;
+}
+@keyframes newGameHover {
+    0%{ width: 12rem;
+        height: 4rem;
+        font-size: 3rem;
+        border: 4px solid transparent;
+}
+    100%{ 
+        font-size: 3.5rem;
+        width: 15rem;
+        height: 5rem;
+        border: 4px solid #fff;
+    }
+}
+.proximaFaseX{
+    width: 5rem;
+    height: 2rem;
+    margin: 0.2rem 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 20px;
+}
+.proximaFaseV{
+    width: 5rem;
+    height: 2rem;
+    margin: 0.2rem 0;
+    border: 5px solid rgb(0, 255, 0);
+    border-radius: 20px;
+}
+.botaoVoltaMenu{
+   border: 8px solid rgb(255, 0, 0);
+   animation: teste 2s ease forwards;
+}
+.botaoVoltaMenu:hover {
+    border: 8px solid rgb(0, 255, 13);
+}
+@keyframes teste {
+    0%{
+        width: 5rem;
+        height: 5rem;
+    }
+    100%{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+/*Fase Azul*/
+.ComeceFase1Styles{
+    display: block;
+}
+.ComeceFase1StylesNone{
+    display: none;
+}
+.FalaAzulContainer{
+    width: 19rem;
+    height: 12rem;
+    border: 5px solid rgb(56, 56, 141);
+    background-color: #272525;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.falaAzul{
+    width: 0rem;
+    font-size: 0rem;
+    animation: TextAzul 2s ease 1s forwards;
+    text-align: center;
+}
+@keyframes TextAzul {
+    0%{width: 0rem;
+    font-size: 0rem;}
+    100%{width: 19rem;
+    font-size: 1.25rem;}
+}
+
+/*Final Azul*/
+/*Fase Vermelha*/
+.ComeceFase2Styles{
+    display: block;
+}
+.ComeceFase2StylesNone{
+    display: none;
+}
+.FalaVermelhoContainer{
+    width: 19rem;
+    height: 12rem;
+    border: 5px solid rgb(141, 56, 56);
+    background-color: #272525;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.falaVermelho{
+    width: 0rem;
+    font-size: 0rem;
+    animation: TextAzul 2s ease 1s forwards;
+    text-align: center;
+}
+@keyframes TextVermelho {
+    0%{width: 0rem;
+    font-size: 0rem;}
+    100%{width: 19rem;
+    font-size: 1.3rem;}
+}
+/*Fase Amarela*/
+.ComeceFase3Styles{
+    display: block;
+}
+.ComeceFase3StylesNone{
+    display: none;
+}
+.FalaAmareloContainer{
+    width: 19rem;
+    height: 12rem;
+    border: 5px solid rgb(118, 141, 56);
+    background-color: #272525;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.falaAmarelo{
+    width: 0rem;
+    font-size: 0rem;
+    animation: TextAzul 2s ease 1s forwards;
+    text-align: center;
+}
+@keyframes TextVermelho {
+    0%{width: 0rem;
+    font-size: 0rem;}
+    100%{width: 19rem;
+    font-size: 1.3rem;}
+}
+/*Final*/
+.Final{
+    padding: 0.5rem 1rem;
+    background-color: #272525;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0 0.5rem;
+    border: 3px solid #fff;
+}
+.FinalNone{
+    display: none;
+}
